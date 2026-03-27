@@ -1,10 +1,11 @@
-# GUI VERSION!!
-Here's a repo of the GUI ver. made by burnedpopcorn!<br>
-https://github.com/burnedpopcorn/FMOD-Decompiler-GUI
 # FMOD-Decompiler
 FMOD-Decompiler is a Command Line tool that attempts to decompile multiple FMOD bank files into a single `.fspro` project. This allows users to reconstruct an FMOD project from compiled bank files, making it easier to analyze or modify existing audio assets.<br>
 
 This uses DLLs from the [FMOD Studio/Core API](https://fmod.com/download#fmodengine).
+
+## GUI Version Available
+Prefer a visual interface? A GUI version of this tool has been developed by burnedpopcorn.
+- Repository: [FMOD-Decompiler-GUI](https://github.com/burnedpopcorn/FMOD-Decompiler-GUI)
 
 ## Features
 - Parses and extracts data from FMOD bank files (`.bank`)
