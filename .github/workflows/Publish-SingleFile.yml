@@ -43,19 +43,6 @@ jobs:
       run: |
         7z a -tzip FMOD-Decompiler-v1.2.0.zip ./windows-latest/* -mx0
 # ----------------------------------------------------------------------------
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: v1.2.0
-        release_name: Release v1.2.0
-        body: |
-          This is release v1.2.0 of FMOD-Decompiler
-        draft: false
-        prerelease: false
-# ----------------------------------------------------------------------------
     - name: Upload EFFMOD (release)
       uses: actions/upload-artifact@v4
       with:
