@@ -39,11 +39,6 @@ jobs:
       run: |
         dotnet publish FMOD-Decompiler.sln -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true --output windows-latest
 # ----------------------------------------------------------------------------
-    - name: Copy README and LICENSE Files
-      run: |
-        cp ./README.md ./windows-latest
-        cp ./LICENSE.txt ./windows-latest
-# ----------------------------------------------------------------------------
     - name: Create ZIP from Build
       run: |
         7z a -tzip FMOD-Decompiler-v1.2.0.zip ./windows-latest/* -mx0
