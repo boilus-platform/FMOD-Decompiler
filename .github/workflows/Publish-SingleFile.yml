@@ -46,5 +46,5 @@ jobs:
     - name: Upload EFFMOD (release)
       uses: actions/upload-artifact@v4
       with:
-       name: ./FMOD-Decompiler-v1.2.0.zip
+       name: FMOD-Decompiler-v1.2.0.zip
        path: FMOD-Decompiler-v1.2.0.zip
